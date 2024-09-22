@@ -1,6 +1,6 @@
 from random import randrange
 
-def check_guess(guess, answer):
+def check_guess(guess, answer): 
     difference = guess - answer  
 
     if guess == answer:
